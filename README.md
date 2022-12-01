@@ -13,3 +13,4 @@ The hypotheses are as follows: <br />
    
 For the duration of a single growing season, the time series soil moisture data for these four soils at multiple depths were collected. A Fast Fourier Transform on the discrete Fourier Transform was performed to determine the frequencies of soil moistures which loosely correlate to the irrigation schedule. The FFT frequencies reflecting gravity driven flow range from once per week to every three hours.  A drainage index was calculated from the periodogram produced by FFTs at two depths for each soil. The drainage index $I_d$ does not necessarily represent an intrinsic soil property, but represents the extent of gravity driven water flow between the two sensors and different depths for a growing season.  
 
+<img width="516" alt="Screenshot 2022-11-22 at 4 33 43 PM" src="https://user-images.githubusercontent.com/62969383/205136606-1d49ce54-1446-4128-bfe0-2fff8259be1f.png">
