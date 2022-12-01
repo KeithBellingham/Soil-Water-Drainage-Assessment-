@@ -1,2 +1,15 @@
 # Soil-Water-Drainage-Assessment-
 Soil Water Drainage Assessment Using Fast Fourier Transform Drainage of irrigated soils for one growing season of various crops and soil types.  
+**Introduction**<br />
+The drainage of soil has important implications for irrigated agriculture and thus food security.  Poorly drained soils may lead to anaerobic conditions resulting in reduced crop yields. Also, poorly drained soils on irrigated lands is a leading cause of salinity buildup. Saline soils become infertile for most crops and can be very expensive to reclaim the soil for agriculture once becoming saline. <br />
+
+On the other hand, excessive drainage of soils on irrigated lands may leach nitrates downward contaminating aquifers. Fertigation is nutrient rich irrigation water often made from dairy or swine effluent and is commonly used to irrigate crops. While crops benefit from the nutrient rich irrigation water, there is a risk that the nutrient rich water will leach downward to the aquifer contaminating local drinking water and polluting local surface water.  The irrigator must balance the drainage of the soil with crop health and the environmental impacts. <br />
+
+Because the gravity driven movement of water is orders of magnitude faster than capillary driven movement of water,  a Fast Fourier Transform (FFT) of the time series soil moisture data offers a possible method for assessing the extent to which a soil is draining during  irrigation cycles within a season. In this study soil moisture sensors at multiple depths were deployed in four different kinds of soils from highly drained organic grow media to poorly drained silty clay loam. These four soils had various irrigation schedules from daily to weekly. The crops include cannabis, blueberries, and corn. <br/>
+The hypotheses are as follows: <br />
+
+1)	If the frequency of soil moisture at the surface is the same as the frequency of moisture at a deeper depth, than the water flow is driven by gravity and the soil experienced water drainage. <br />
+2)	If the frequency of soil moisture at the surface is greater than the moisture frequency at a deeper depth, or if there is no periodicity of soil moisture at a deeper depth, then the movement of water is primarily driven by capillary forces and thus the soil is not experiencing significant drainage.   <br />   
+   
+For the duration of a single growing season, the time series soil moisture data for these four soils at multiple depths were collected. A Fast Fourier Transform on the discrete Fourier Transform was performed to determine the frequencies of soil moistures which loosely correlate to the irrigation schedule. The FFT frequencies reflecting gravity driven flow range from once per week to every three hours.  A drainage index was calculated from the periodogram produced by FFTs at two depths for each soil. The drainage index $I_d$ does not necessarily represent an intrinsic soil property, but represents the extent of gravity driven water flow between the two sensors and different depths for a growing season.  
+
